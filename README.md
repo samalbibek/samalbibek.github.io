@@ -1,4 +1,4 @@
-### Hi there, Its Bibs here-aka Bibek Samal👋
+### Hi there, I'm Bibs - aka Bibek Samal👋
 
 <!--
 **Bibek-Samal/Bibek-Samal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
