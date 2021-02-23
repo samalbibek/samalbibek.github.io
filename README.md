@@ -1,11 +1,10 @@
-###Hi there, Its Bibek - aka Bibek Samal
+### Hi there, Its Bibek - aka Bibek Samal
 
 
 
-> `
 
  - Fun fact : I love to play cricket. A part time digital content creator.
-`
+
 
 ###Contact with me 
 
