@@ -9,3 +9,5 @@
 ###Contact with me 
 
   - [Instagram](https://www.instagram.com/the_quasi_guy/)
+  - [Facebook](https://www.facebook.com/bibek.samal.90/)
+  - [Twitter](https://twitter.com/bibekhapuli)
