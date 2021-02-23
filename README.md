@@ -5,7 +5,7 @@
 
 ### Education
 - Intermediate in Science, J. K. B. K. Jnr. Govt. College, Cuttack, Odisha
-- Bachelor in Science, B. J. B. Autonomous College, [Bhubaneswar, Odisha](https://en.wikipedia.org/wiki/Bhubaneswar)
+- [Bachelor in Science, B. J. B. Autonomous College](http://www.bjbcollege.in/), [Bhubaneswar, Odisha](https://en.wikipedia.org/wiki/Bhubaneswar)
 ### Find me
 
   - [Instagram](https://www.instagram.com/the_quasi_guy/)
