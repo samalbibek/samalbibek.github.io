@@ -1,7 +1,7 @@
 ### Hi there, Its Bibek - aka Bibek Samal
 
 ### Bio
-- I am a theoretical and computational chemist in the [Quantum Chemistry Group](https://vkvoora.github.io/#overview) at [Department of Chemical Sciences, Tata Institute of Fundamental Reseach](https://www.tifr.res.in/~dcs/). I love vey much to notice core elctrons using different levels of theory. I am trying to develop theory that could describe core electrons accurately at low computational cost. I am also learning Python for my development aspect. 
+- I am a theoretical and computational chemist in the [Quantum Chemistry Group](https://vkvoora.github.io/#overview) at [Department of Chemical Sciences, Tata Institute of Fundamental Reseach](https://www.tifr.res.in/~dcs/). I love very much to notice core elctrons using different levels of theory. I am trying to develop theory that could describe core electrons accurately at low computational cost. I am also learning Python for my development aspect. 
         
  - Cricket adds extra happiness to my academic life. I am a proper all-rounder on field. A right-arm fast bowler and left handed middle order batsman. 
  
