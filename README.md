@@ -3,7 +3,7 @@
 ### Bio
 - I am a theoretical and computational chemist in the [Quantum Chemistry Group](https://vkvoora.github.io/#overview) at [Department of Chemical Sciences, Tata Institute of Fundamental Reseach](https://www.tifr.res.in/~dcs/). I love vey much to notice core elctrons using different levels of theory. 
         
-        - I play cricket much often and a part time digital content creator
+    - I play cricket much often and a part time digital content creator
 
 ### Research Interests
 - Physical Chemistry and Chemical Physics 
