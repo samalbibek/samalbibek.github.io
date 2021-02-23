@@ -1,12 +1,12 @@
 ### Hi there, Its Bibek - aka Bibek Samal
 
-
+### I'm a Research Scholar 
 
 
  - Fun fact : I love to play cricket. A part time digital content creator.
 
 
-###Contact with me 
+### Contact with me 
 
   - [Instagram](https://www.instagram.com/the_quasi_guy/)
   - [Facebook](https://www.facebook.com/bibek.samal.90/)
