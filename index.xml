@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I&#39;m Bibek</title>
+    <link>http://iambibek.github.io/</link>
+    <description>Recent content on I&#39;m Bibek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Mar 2021 17:24:11 +0530</lastBuildDate><atom:link href="http://iambibek.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mypost</title>
+      <link>http://iambibek.github.io/posts/mypost/</link>
+      <pubDate>Thu, 18 Mar 2021 17:24:11 +0530</pubDate>
+      
+      <guid>http://iambibek.github.io/posts/mypost/</guid>
+      <description>This is some content to test</description>
+    </item>
+    
+  </channel>
+</rss>
