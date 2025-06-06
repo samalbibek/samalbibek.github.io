@@ -1,26 +1,7 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #fff;
-  color: #333;
-  line-height: 1.6;
-  font-size: 18px;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 20px 60px;
-  position: relative;
-}
-
 /* Top solid color band */
 .top-band {
   height: 30px;
-  background-color: #f25c05;
+  background-color: #DC143C; /* crimson red */
 }
 
 /* Header with blurred cover photo background */
@@ -61,9 +42,11 @@ header::before {
   align-items: center;
   gap: 20px; /* space between photo and text */
   padding: 10px 20px;
-  background-color: #f0f0f0; /* light background for style */
+  background-color: rgba(240, 240, 240, 0.85); /* semi-transparent light bg for style */
+  border-radius: 12px;
 }
 
+/* Profile photo in a circle */
 .profile-photo {
   width: 100px;
   height: 100px;
@@ -73,10 +56,12 @@ header::before {
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
+/* Text next to the photo */
 .header-text h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
+  color: #222;
 }
 
 .header-text p {
@@ -85,7 +70,7 @@ header::before {
   color: #555;
 }
 
-/* Header text */
+/* Header text (below the photo+bio) */
 header h1 {
   font-weight: 700;
   font-size: 3rem;
@@ -120,7 +105,7 @@ main section h2 {
   color: #222;
   font-size: 1.8rem;
   margin-bottom: 12px;
-  border-left: 5px solid #f25c05;
+  border-left: 5px solid #DC143C; /* crimson red */
   padding-left: 10px;
 }
 
@@ -134,14 +119,14 @@ main section ul {
 }
 
 a {
-  color: #f25c05;
+  color: #DC143C; /* crimson red */
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s;
 }
 
 a:hover {
-  border-color: #f25c05;
+  border-color: #DC143C;
 }
 
 /* Footer with solid band */
@@ -150,7 +135,7 @@ footer {
   font-size: 0.9rem;
   color: white;
   margin: 40px 0 0;
-  background-color: #f25c05;
+  background-color: #DC143C; /* crimson red */
   padding: 15px 20px;
   border-radius: 0 0 8px 8px;
 }
