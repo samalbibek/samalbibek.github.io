@@ -1,48 +1,107 @@
+/* === Body with thin horizontal crimson top and bottom borders === */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fafafa;
-  color: #333;
   margin: 0;
   padding: 0;
+  border-top: 4px solid #DC143C;    /* crimson red */
+  border-bottom: 4px solid #DC143C; /* crimson red */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #222;
 }
 
+/* Header styling */
 header {
-  background-color: crimson;   /* changed to crimson */
-  color: white;
-  padding: 20px 0;
   text-align: center;
+  padding: 80px 20px 40px;
+  background-color: #fafafa;
+  color: #222;
+  font-family: 'Georgia', serif;  /* classy serif font */
 }
 
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: 500;
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #DC143C; /* crimson red */
+  letter-spacing: 1.5px;
 }
 
+header p {
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #555;
+  margin: 0 auto;
+  max-width: 600px;
+  font-weight: 300;
+}
+
+/* Main content */
 main {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 0 auto 60px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 8px;
 }
 
-/* Add vertical crimson line on left side of each section */
-main > section {
-  border-left: 5px solid crimson;
-  padding-left: 15px;
-  margin-bottom: 30px;
+/* Section headers with left vertical crimson line ONLY next to heading text */
+main section h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+  border-left: 4px solid #DC143C;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  display: inline-block; /* so border only covers heading text height */
 }
 
-.bio h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+/* Section paragraphs and lists */
+main section p,
+main section ul {
+  color: #444;
+  line-height: 1.6;
+  margin-top: 0;
 }
 
+/* Lists style */
+main section ul {
+  list-style: disc inside;
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #DC143C;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+a:hover {
+  border-color: #DC143C;
+}
+
+/* Footer */
 footer {
+  background-color: #DC143C;
+  color: white;
+  padding: 15px 20px;
   text-align: center;
-  padding: 15px;
-  background-color: #ffe6e6;  /* a very light crimson/pinkish tint */
   font-size: 0.9rem;
-  margin-top: 50px;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  main {
+    padding: 15px;
+  }
+  main section h2 {
+    font-size: 1.6rem;
+  }
 }
 
