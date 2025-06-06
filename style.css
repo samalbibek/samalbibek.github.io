@@ -33,6 +33,21 @@ header p {
   max-width: 600px;
 }
 
+/* Container for the top border with name and designation */
+.top-border-header {
+  background-color: crimson;       /* crimson background */
+  color: white;                    /* white text */
+  font-weight: bold;
+  padding: 20px 0;                 /* vertical padding */
+  text-align: center;              /* center the text */
+  font-size: 1.8rem;
+  border-top: 8px solid crimson;  /* thick top border */
+  border-bottom: 8px solid crimson; /* thick bottom border to make it look balanced */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
 /* Main content */
 main {
   max-width: 800px;
