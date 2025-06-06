@@ -58,15 +58,17 @@ header::before {
 
 /* Profile photo style */
 .profile-photo {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 10vw;                /* 10% of viewport width */
+  height: 10vw;               /* keep it square */
+  max-width: 150px;           /* max size so it doesn't get huge on big screens */
+  max-height: 150px;
+  border-radius: 50%;         /* circle */
   border: 4px solid white;
-  object-fit: cover;
-  object-position: center center;
-  margin: 0 auto 25px auto;
+  object-fit: contain;        /* contain to avoid cropping */
+  margin: 20px auto;          /* center horizontally with some margin */
   display: block;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  background-color: #fff;     /* optional background behind transparent photos */
 }
 
 /* Header text */
