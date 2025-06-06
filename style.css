@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bibek Samal | Theoretical Chemist</title>
-<style>
-  body {
-    margin: 0;
-    border-top: 4px solid crimson;
-    border-bottom: 4px solid crimson;
-    font-family: Arial, sans-serif;
-    background: white;
-    color: #222;
-  }
-  header {
-    text-align: center;
-    padding: 60px 20px 40px;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 3rem;
-    color: crimson;
-  }
-  header p {
-    margin: 5px 0 0;
-    font-style: italic;
-    color: #555;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bibek Samal | Theoretical Chemist</title>
+  <style>
+    /* Reset default margin/padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #222;
+      background-color: #fff;
+      /* Crimson red top and bottom borders */
+      border-top: 5px solid crimson;
+      border-bottom: 5px solid crimson;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
+      padding: 80px 20px 60px 20px;
+      /* Optional subtle shadow behind text */
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: crimson;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
