@@ -1,107 +1,39 @@
-/* === Body with thin horizontal crimson top and bottom borders === */
-body {
-  margin: 0;
-  padding: 0;
-  border-top: 4px solid #DC143C;    /* crimson red */
-  border-bottom: 4px solid #DC143C; /* crimson red */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff;
-  color: #222;
-}
-
-/* Header styling */
-header {
-  text-align: center;
-  padding: 80px 20px 40px;
-  background-color: #fafafa;
-  color: #222;
-  font-family: 'Georgia', serif;  /* classy serif font */
-}
-
-header h1 {
-  font-size: 3.5rem;
-  margin-bottom: 8px;
-  font-weight: 700;
-  color: #DC143C; /* crimson red */
-  letter-spacing: 1.5px;
-}
-
-header p {
-  font-style: italic;
-  font-size: 1.4rem;
-  color: #555;
-  margin: 0 auto;
-  max-width: 600px;
-  font-weight: 300;
-}
-
-/* Main content */
-main {
-  max-width: 800px;
-  margin: 0 auto 60px;
-  padding: 20px;
-  background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  border-radius: 8px;
-}
-
-/* Section headers with left vertical crimson line ONLY next to heading text */
-main section h2 {
-  font-weight: 700;
-  font-size: 2rem;
-  color: #222;
-  border-left: 4px solid #DC143C;
-  padding-left: 12px;
-  margin-bottom: 12px;
-  display: inline-block; /* so border only covers heading text height */
-}
-
-/* Section paragraphs and lists */
-main section p,
-main section ul {
-  color: #444;
-  line-height: 1.6;
-  margin-top: 0;
-}
-
-/* Lists style */
-main section ul {
-  list-style: disc inside;
-  margin-top: 10px;
-}
-
-/* Links */
-a {
-  color: #DC143C;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
-}
-
-a:hover {
-  border-color: #DC143C;
-}
-
-/* Footer */
-footer {
-  background-color: #DC143C;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-  font-size: 0.9rem;
-  border-radius: 0 0 8px 8px;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bibek Samal | Theoretical Chemist</title>
+<style>
+  body {
+    margin: 0;
+    border-top: 4px solid crimson;
+    border-bottom: 4px solid crimson;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #222;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px 40px;
+  }
   header h1 {
-    font-size: 2.5rem;
+    margin: 0;
+    font-size: 3rem;
+    color: crimson;
   }
-  main {
-    padding: 15px;
+  header p {
+    margin: 5px 0 0;
+    font-style: italic;
+    color: #555;
   }
-  main section h2 {
-    font-size: 1.6rem;
-  }
-}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Bibek Samal</h1>
+    <p>Theoretical &amp; Computational Physicist</p>
+  </header>
+</body>
+</html>
 
