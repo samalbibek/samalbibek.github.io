@@ -1,116 +1,63 @@
-/* Top solid color band */
-.top-band {
-  height: 30px;
-  background-color: #DC143C; /* crimson red */
-}
-
-/* Header with blurred cover photo background */
-header {
-  position: relative;
-  text-align: center;
-  padding: 120px 20px 60px 20px; /* increased top padding */
-  color: white;
-  background: url('cover-photo.jpg') center center/cover no-repeat;
-  overflow: hidden;
-  min-height: 400px; /* expand height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Overlay with blur behind content */
-header::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: inherit;
-  filter: blur(10px);
-  z-index: 0;
-}
-
-/* Container for photo and text - above the blur */
-.header-content {
-  position: relative;
-  z-index: 1; /* higher than overlay */
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.header-with-photo {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* space between photo and text */
-  padding: 10px 20px;
-  background-color: rgba(240, 240, 240, 0.85); /* semi-transparent light bg for style */
-  border-radius: 12px;
-}
-
-/* Profile photo in a circle */
-.profile-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  object-fit: cover;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-}
-
-/* Text next to the photo */
-.header-text h1 {
+/* === Top and bottom crimson red borders === */
+body {
   margin: 0;
-  font-size: 2rem;
-  font-weight: bold;
+  padding: 0;
+  border-top: 4px solid #DC143C;    /* crimson red */
+  border-bottom: 4px solid #DC143C; /* crimson red */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #fff;
   color: #222;
 }
 
-.header-text p {
-  margin: 0;
-  font-size: 1.1rem;
-  color: #555;
+/* Header styling */
+header {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background-color: #fafafa;
+  color: #222;
 }
 
-/* Header text (below the photo+bio) */
 header h1 {
-  font-weight: 700;
   font-size: 3rem;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  font-weight: 700;
+  color: #DC143C; /* crimson red */
 }
 
 header p {
   font-style: italic;
   font-size: 1.3rem;
-  max-width: 600px;
+  color: #555;
   margin: 0 auto;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  max-width: 600px;
 }
 
-/* Main content sections */
+/* Main content */
 main {
-  background: white;
-  padding: 40px 20px;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
-  margin-top: -40px;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
   border-radius: 8px;
-  min-height: 400px; /* to avoid too little content space */
 }
 
-main section {
-  margin-bottom: 40px;
-}
-
+/* Section headers with crimson left border */
 main section h2 {
   font-weight: 700;
-  color: #222;
   font-size: 1.8rem;
+  color: #222;
+  border-left: 5px solid #DC143C;
+  padding-left: 12px;
   margin-bottom: 12px;
-  border-left: 5px solid #DC143C; /* crimson red */
-  padding-left: 10px;
 }
 
-main section p, main section ul {
+/* Text styling */
+main section p,
+main section ul {
   color: #444;
+  line-height: 1.6;
 }
 
 main section ul {
@@ -118,8 +65,9 @@ main section ul {
   margin-top: 10px;
 }
 
+/* Links with crimson red spark */
 a {
-  color: #DC143C; /* crimson red */
+  color: #DC143C;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s;
@@ -129,31 +77,26 @@ a:hover {
   border-color: #DC143C;
 }
 
-/* Footer with solid band */
+/* Footer with thin crimson red background */
 footer {
+  background-color: #DC143C;
+  color: white;
+  padding: 15px 20px;
   text-align: center;
   font-size: 0.9rem;
-  color: white;
-  margin: 40px 0 0;
-  background-color: #DC143C; /* crimson red */
-  padding: 15px 20px;
   border-radius: 0 0 8px 8px;
 }
 
-/* Responsive for mobile */
+/* Responsive tweaks */
 @media (max-width: 600px) {
-  body {
-    padding: 0 15px 60px;
-  }
   header h1 {
     font-size: 2.2rem;
   }
+  main {
+    padding: 15px;
+  }
   main section h2 {
     font-size: 1.4rem;
-  }
-  .profile-photo {
-    width: 90px;
-    height: 90px;
   }
 }
 
