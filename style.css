@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,30 +12,83 @@ body {
   line-height: 1.6;
   font-size: 18px;
   max-width: 700px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 20px 60px; /* bottom padding for footer spacing */
+  position: relative;
 }
 
+/* Top solid color band */
+.top-band {
+  height: 30px;
+  background-color: #f25c05; /* accent orange */
+}
+
+/* Header with blurred cover photo background */
 header {
+  position: relative;
   text-align: center;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #eee;
+  padding: 80px 20px 40px 20px;
+  color: white;
+  background: url('cover-photo.jpg') center center/cover no-repeat;
+  filter: none;
+  overflow: hidden;
 }
 
+/* Overlay with blur */
+header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: inherit;
+  filter: blur(8px);
+  z-index: 1;
+}
+
+/* Container for photo and text - above the blur */
+.header-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Profile photo style */
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Header text */
 header h1 {
   font-weight: 700;
   font-size: 2.8rem;
-  color: #222;
+  margin-bottom: 8px;
 }
 
 header p {
   font-style: italic;
-  color: #666;
-  margin-top: 8px;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Main content sections */
+main {
+  background: white;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  margin-top: -40px; /* overlap header bottom */
+  border-radius: 8px;
 }
 
 main section {
-  margin: 40px 0;
+  margin-bottom: 40px;
 }
 
 main section h2 {
@@ -67,25 +120,31 @@ a:hover {
   border-color: #f25c05;
 }
 
+/* Footer with solid band */
 footer {
   text-align: center;
   font-size: 0.9rem;
-  color: #aaa;
-  margin: 40px 0 20px;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
+  color: white;
+  margin: 40px 0 0;
+  background-color: #f25c05;
+  padding: 15px 20px;
+  border-radius: 0 0 8px 8px;
 }
 
 /* Responsive for mobile */
 @media (max-width: 600px) {
   body {
-    padding: 0 15px;
+    padding: 0 15px 60px;
   }
   header h1 {
     font-size: 2rem;
   }
   main section h2 {
     font-size: 1.4rem;
+  }
+  .profile-photo {
+    width: 90px;
+    height: 90px;
   }
 }
 
